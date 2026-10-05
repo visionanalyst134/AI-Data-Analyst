@@ -191,6 +191,8 @@ This helps reduce incorrect numerical values generated directly by the LLM.
 
 # Recommended Project Structure
 
+```text
+
 AI-data-analyst/
 |
 |-- app.py
@@ -200,6 +202,7 @@ AI-data-analyst/
 |-- requirements.txt
 |-- .gitignore
 |-- README.md
+```
 
 The following local files are not included in the repository:
 - raw_csv_data/
