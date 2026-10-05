@@ -20,31 +20,31 @@ The app also tries to understand the dataset domain and automatically selects us
 
 # Project Flow-
 
-CSV File
-   |
-   v
-Pandas DataFrame
-   |
-   +----------------------+
-   |                      |
-   v                      v
-Domain Engine        Pandas Agent
-   |                      |
-   v                      v
-Business Context     Custom Questions
-+ KPI Definitions
-   |
-   v
-KPI Engine
-   |
-   v
-Calculated KPI Values
-   |
-   v
-Streamlit Dashboard
-   |
-   v
-AI Summary
+```text
+                 CSV File
+                    |
+                    v
+             Pandas DataFrame
+                    |
+          +---------+---------+
+          |                   |
+          v                   v
+   Domain Engine        Pandas Agent
+          |                   |
+          v                   v
+   KPI Definitions       Ask AI Questions
+          |
+          v
+      KPI Engine
+          |
+          v
+   Calculated KPIs
+          |
+          v
+  Streamlit Dashboard
+          |
+          v
+      AI Summary
 
 
 # Main Files -
